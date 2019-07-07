@@ -5,7 +5,7 @@ $stations = "";
 //$bbcode = "[list]" . PHP_EOL;
 foreach ($channels_json as $channel)
 {
-    $stations .= '<div class="card mt-4 ml-4" style="max-width: 200px;">';
+    $stations .= '<div class="card mt-4 ml-4 mx-auto" style="max-width: 220px;">';
     $stations .= '<img class="mx-auto" height="150" src="' . str_replace("71x71", "150x150", $channel->logo->url) . '" alt="">';
     $stations .= '<div class="card-body">';
     $stations .= '<span class="badge badge-success">WSPIERANE</span>';
